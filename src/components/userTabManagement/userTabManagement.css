@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
+
+.user-list-wrapper {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.user-detail-card {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 191, 255, 0.075);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+  border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+
+.details-btn,
+.add-user-btn,
+.update-user-btn {
+  margin-top: 1rem;
+  background-color: #31b0d5; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.details-btn:hover,
+.add-user-btn:hover,
+.update-user-btn:hover {
+  background-color: #31afd5a9;
+}
+
+.add-user-btn {
+  justify-self: end;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.user-detail-card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.solo-details-tab {
+  height: fit-content;
+  width: 25vw;
+  padding-bottom: 4rem;
+}
+.user-data-title-head {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.user-data-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.user-data-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2;
+  margin-bottom: 1rem;
+  text-align: start;
+}
+.user-data-wrapper > p {
+  text-align: left;
+}
+
+
+.user-tab-wrapper > h1 {
+  font-family: "Mochiy Pop P One", sans-serif;
+
+}

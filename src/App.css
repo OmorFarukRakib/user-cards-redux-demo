@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.list-card {
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+}
+
+.list {
+  display: flex;
+  width: 10rem;
+
+  flex-direction: column;
+  justify-content: center;
+
+  width: 5rem;
+  height: 15rem;
+}
+
+.nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: pink;
+}

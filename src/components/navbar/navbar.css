@@ -1,0 +1,10 @@
+.navbar {
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
